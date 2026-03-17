@@ -185,7 +185,7 @@ UPI / Razorpay Sandbox
 ## Team Members
 
 - D. Manasa  
-- V. Vaishnavi Prasad  
+- M. Vaishnavi Prasad  
 - K. Geetha Reddy  
 - B. Pravalika  
 - B. Nandini
