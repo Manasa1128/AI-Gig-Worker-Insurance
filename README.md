@@ -1,7 +1,7 @@
-AI-Powered Insurance for Gig Workers
+🚀 AI-Powered Insurance for Gig Workers
 Inspiration
 
-Gig workers like delivery partners, drivers, and freelancers face daily risks but often lack proper insurance coverage. Many are unaware of suitable insurance plans or cannot afford them. This inspired us to build a system that provides accessible, affordable, and personalized insurance solutions using AI.
+Gig workers like delivery partners, drivers, and freelancers face daily risks but often lack proper insurance coverage. Many are unaware of suitable insurance plans or cannot afford them. This project addresses the lack of insurance accessibility for gig workers by providing a smart and affordable solution using AI.
 
 What it does
 
@@ -120,7 +120,7 @@ Add multilingual support
 
 Enable real-time claim processing
 
- Team Members
+🧑‍🤝‍🧑 Team Members
 
 D. Manasa
 
@@ -132,5 +132,8 @@ B. Pravalika
 
 B. Nandini
 
-Demo Video:https://youtu.be/5S0tAp-_AfA
+🔗 Links
 
+GitHub Repository: https://github.com/Manasa1128/AI-Gig-Worker-Insurance
+
+Demo Video: https://youtu.be/5S0tAp-_AfA
