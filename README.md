@@ -1,191 +1,136 @@
-# AI-Powered Parametric Insurance for Gig Workers
+AI-Powered Insurance for Gig Workers
+Inspiration
 
-## Guidewire DEVTrails 2026
+Gig workers like delivery partners, drivers, and freelancers face daily risks but often lack proper insurance coverage. Many are unaware of suitable insurance plans or cannot afford them. This inspired us to build a system that provides accessible, affordable, and personalized insurance solutions using AI.
 
-This project focuses on building an AI-powered parametric insurance platform that protects gig workers from income loss caused by external disruptions such as extreme weather or environmental conditions.
+What it does
 
----
+This project is an AI-powered insurance recommendation system that:
 
-## Problem Statement
+Collects user details (job type, working hours, income)
 
-Delivery partners working with platforms like Zomato and Swiggy depend on daily deliveries for their income.
+Calculates a risk score
 
-External disruptions such as:
+Suggests personalized insurance plans
 
-- Heavy Rain
-- Extreme Heat
-- Floods
-- Severe Air Pollution
-- Sudden Curfews
+Helps gig workers choose the most suitable and affordable policies
 
-can reduce their working hours and lead to **20–30% income loss**.
+How we built it
 
-Currently, gig workers have **no financial protection** against these uncontrollable events.
+We followed a full-stack development approach:
 
-Our platform aims to solve this problem by providing **AI-powered income protection insurance**.
+Frontend: React (for user interface)
 
----
+Backend: Spring Boot (Java)
 
-## Target Persona
+Database: MySQL
 
-Food Delivery Partners working with platforms such as:
+Logic: Rule-based AI system for risk calculation
 
-- Zomato
-- Swiggy
+Risk Calculation Formula:
+𝑅
+𝑖
+𝑠
+𝑘
+𝑆
+𝑐
+𝑜
+𝑟
+𝑒
+=
+𝑊
+𝑜
+𝑟
+𝑘
+𝐻
+𝑜
+𝑢
+𝑟
+𝑠
+×
+𝑅
+𝑖
+𝑠
+𝑘
+𝐹
+𝑎
+𝑐
+𝑡
+𝑜
+𝑟
+𝐼
+𝑛
+𝑐
+𝑜
+𝑚
+𝑒
+𝐿
+𝑒
+𝑣
+𝑒
+𝑙
+RiskScore=
+IncomeLevel
+WorkHours×RiskFactor
+	​
 
-Typical Profile:
+Challenges we ran into
 
-- Works 8–10 hours per day
-- Weekly earnings: ₹3000–₹6000
-- Depends completely on daily deliveries for income
+Designing an accurate and fair risk calculation model
 
----
+Handling different categories of gig workers
 
-## Proposed Solution
+Integrating frontend and backend smoothly
 
-We propose an **AI-powered parametric insurance platform** that automatically compensates delivery workers for lost income during disruptions.
+Time constraints during development
 
-Key features:
+Keeping the UI simple and user-friendly
 
-- AI-based risk prediction
-- Weekly premium plans
-- Automatic disruption detection
-- Instant payout system
+Accomplishments that we're proud of
 
-The system will automatically detect disruptions and trigger insurance payouts without requiring manual claims.
+Built a real-world problem-solving project
 
----
+Developed a full-stack application structure
 
-## Weekly Premium Model
+Created an AI-based recommendation system
 
-Our insurance plans are designed on a **weekly subscription model**, aligned with gig workers’ earning cycles.
+Successfully completed within limited time
 
-Example Plans:
+What we learned
 
-Basic Plan  
-Weekly Premium: ₹30  
-Coverage: Up to ₹500
+Full-stack development (React + Spring Boot)
 
-Standard Plan  
-Weekly Premium: ₹50  
-Coverage: Up to ₹1000
+API integration and data handling
 
-Premium Plan  
-Weekly Premium: ₹80  
-Coverage: Up to ₹2000
+Problem-solving in real-world scenarios
 
-Premiums are dynamically calculated using AI risk analysis.
+Importance of user-centric design
 
----
+Basics of AI-based decision-making systems
 
-## Parametric Triggers
+What's next for Untitled
 
-Insurance payouts are triggered automatically when certain conditions are met.
+Implement advanced machine learning models
 
-Examples:
+Integrate with real insurance provider APIs
 
-Heavy Rain  
-Rainfall greater than 80mm
+Build a mobile application
 
-Extreme Heat  
-Temperature greater than 45°C
+Add multilingual support
 
-Air Pollution  
-AQI above 350
+Enable real-time claim processing
 
-Curfew or Zone Shutdown  
-Government-issued restrictions
+ Team Members
 
-When these conditions occur and delivery activity drops, the system automatically initiates a payout.
+D. Manasa
 
----
+M. Vaishnavi Prasad
 
-## AI / ML Components
+K. Geetha Reddy
 
-### Risk Assessment Model
+B. Pravalika
 
-AI will analyze:
+B. Nandini
 
-- Historical weather data
-- Location-based risk
-- Delivery activity patterns
+Demo Video:https://youtu.be/5S0tAp-_AfA
 
-This helps determine **weekly premium pricing**.
-
-### Fraud Detection System
-
-To prevent fraud, the system will detect:
-
-- Fake location claims
-- Duplicate claims
-- Inactive workers making claims
-
-Techniques used:
-
-- Anomaly detection
-- Activity validation
-- Location verification
-
----
-
-## Application Workflow
-
-Step 1 – Worker Registration  
-Delivery partner signs up using phone number and location.
-
-Step 2 – Risk Profiling  
-AI evaluates risk based on location and environmental data.
-
-Step 3 – Policy Selection  
-Worker selects a weekly insurance plan.
-
-Step 4 – Disruption Monitoring  
-System continuously monitors weather, pollution, and curfew data.
-
-Step 5 – Automatic Claim Trigger  
-If disruption conditions are met and income drops, a claim is triggered automatically.
-
-Step 6 – Instant Payout  
-Compensation is transferred via UPI or bank account.
-
----
-
-## Technology Stack
-
-Frontend  
-React.js
-
-Backend  
-Spring Boot
-
-AI / ML  
-Python (Scikit-learn)
-
-Database  
-MySQL
-
-APIs  
-Weather API  
-Pollution API
-
-Payments  
-UPI / Razorpay Sandbox
-
----
-
-## Future Enhancements
-
-- Real-time delivery platform integration
-- Multi-city risk prediction
-- Advanced AI fraud detection
-- Blockchain-based claim validation
-
----
-
-## Team Members
-
-- D. Manasa  
-- M. Vaishnavi Prasad  
-- K. Geetha Reddy  
-- B. Pravalika  
-- B. Nandini
